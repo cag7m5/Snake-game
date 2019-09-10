@@ -97,7 +97,7 @@ void gameLogic() {
 	int prev2X, prev2Y;
 	tailX[0] = headX;
 	tailY[0] = headY;
-	for (int i = 1; i < tailLength; i++)
+	for (int i = 1; i < tailLength; i++)//this loop allows the tail to follow the head by remembering its previous position temporarily
 	{
 		prev2X = tailX[i];
 		prev2Y = tailY[i];
