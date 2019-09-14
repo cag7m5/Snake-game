@@ -41,7 +41,7 @@ void screen() {//displays everything
 			else if (i == headY && j == headX)
 				cout << "O";
 			else if (i == coinY && j == coinX)
-				cout << "F";
+				cout << "C";
 			else
 			{
 				bool print = false;
